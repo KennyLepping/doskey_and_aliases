@@ -1,0 +1,25 @@
+ls=dir/b/w 
+up=cd .. $*
+ex=exit
+mv=move $*
+cp=copy $*
+touch=type nul > $*
+t=type nul > $*
+rm=del $*
+c=cd C:\Users\kenny\source\repos
+vmc=cd C:\bat\ && vim macros.bat
+m=py manage.py migrate
+mnm=py manage.py migrate && py manage.py makemigrations
+mm=py manage.py makemigrations
+pl=pip list
+pf=pip freeze > requirements.txt
+rs=py manage.py runserver
+ls -1=dir/b
+cc=echo | set /p=%cd% | clip
+pwd=echo %cd%
+gi=git init
+ga=git add .
+gc=git commit -m "$*
+gac=git commit -am "$*
+gp=git push
+env=pipenv shell
