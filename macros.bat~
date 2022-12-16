@@ -12,7 +12,6 @@ m=py manage.py migrate
 mnm=py manage.py migrate && py manage.py makemigrations
 mm=py manage.py makemigrations
 pl=pip list
-pi=pip install $*
 pf=pip freeze > requirements.txt
 rs=py manage.py runserver
 ls -1=dir/b
